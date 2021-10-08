@@ -22,7 +22,7 @@ form.addEventListener('submit', (e) => {
 
     removeAllChildNodes(div)
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ba72ac2eb7df535ec2d852238ea17b60`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ba72ac2eb7df535ec2d852238ea17b60`)
     .then(response => response.json())
     .then(data => {
     
